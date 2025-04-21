@@ -4,7 +4,7 @@ This project allows you to generate financial reports and interact with them thr
 
 ## Prerequisites
 
-Ensure you have Python 3.7+ installed. It is recommended to create and activate a virtual environment before proceeding.
+Ensure you have Python 10+ installed. It is recommended to create and activate a virtual environment before proceeding.
 
 Then unsure to set up you python environement:
 
@@ -33,13 +33,13 @@ To install the openai-agents package, run:
 4- **Generate the financial report:**
 Set your OpenAI key first:
    
-      export OPENAI_API_KEY="your_api_key_here"
+      $env:OPENAI_API_KEY="your_api_key_here"
 Then use the following command:
 
-    python -m examples.financial_research_agent.main
+    python -m financial_research_agent.main
 
 5- **Chat with voice to interact with the report:**
 To interact with the financial report via voice, run:
 
-    python -m examples.financial_research_agent.mainvoice
+    python -m financial_research_agent.mainvoice
 
